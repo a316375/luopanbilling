@@ -114,7 +114,7 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
 
     @Override
     public void onPurchasesUpdated(int responseCode, @Nullable List<Purchase> purchases) {
-        Toast.makeText(MainActivity.this, "Click to Tay-BUY "+purchases.size(), Toast.LENGTH_LONG).show();
+        Toast.makeText(MainActivity.this, "Click to Tay-BUY ", Toast.LENGTH_LONG).show();
     }
 
     @Override
