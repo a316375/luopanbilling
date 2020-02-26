@@ -88,6 +88,7 @@ public class MainActivity extends AppCompatActivity implements PurchasesUpdatedL
     }
 
     private void loadRecyclerView(List<SkuDetails> skuDetailsList) {
+        //
         MPAdapter adapter=new MPAdapter(this,skuDetailsList,billingClient);
         recyclerView.setAdapter(adapter);
     }
